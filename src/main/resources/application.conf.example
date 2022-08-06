@@ -1,0 +1,14 @@
+ktor {
+    deployment {
+        port = 8083
+        port = ${?PORT}
+    }
+    application {
+        modules = [com.realityexpander.ApplicationKt.module]
+    }
+}
+
+onesignal {
+    # don't even try, I generated a new one
+    api_key = "YTY2N2JhMzYtMjhiYi00ODlhLWJlNjYtNTAxNGZiZDczZjRl"
+}

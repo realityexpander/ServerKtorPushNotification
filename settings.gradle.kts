@@ -1,1 +1,1 @@
-rootProject.name = "com.realityexpander.ktor-pushnotification"
+rootProject.name = "serverKtorPushNotification"
