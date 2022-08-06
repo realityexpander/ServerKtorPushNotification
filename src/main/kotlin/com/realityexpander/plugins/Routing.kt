@@ -9,14 +9,17 @@ import io.ktor.application.*
 import io.ktor.response.*
 
 fun Application.configureRouting(service: OneSignalService) {
+
     routing {
+
+        // should be a POST request, but for testing purposes we'll use GET so we can use simple query strings
         get("/sendNotification") {
             val title = call.parameters["title"] ?: "Test"
             val description = call.parameters["description"] ?: "Test"
 
             val successful = service.sendNotification(
                 Notification(
-                    includedSegments = listOf("All"),
+                    includedSegments = listOf("All"), // send to all registered users
                     headings = NotificationMessage(en = title),
                     contents = NotificationMessage(en = description),
                     appId = OneSignalService.ONESIGNAL_APP_ID

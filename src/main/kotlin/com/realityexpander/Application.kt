@@ -21,7 +21,7 @@ fun Application.module() {
             serializer = KotlinxSerializer() // Convert JSON to Kotlin objects
         }
     }
-    val apiKey = environment.config.property("onesignal.api_key").getString()
+    val apiKey = environment.config.property("onesignal.api_key").getString() // from application.conf
     val service = OneSignalServiceImpl(client, apiKey)
 
     configureRouting(service)

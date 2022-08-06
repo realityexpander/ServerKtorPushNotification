@@ -10,5 +10,6 @@ ktor {
 
 onesignal {
     # don't even try, I generated a new one
-    api_key = "YTY2N2JhMzYtMjhiYi00ODlhLWJlNjYtNTAxNGZiZDczZjRl"
+    # Replace this with your key
+    api_key = "YTY2N2JhMzYtMjhxxxxxxxxxxxxxxTAxNGZiZDczZjRl"
 }

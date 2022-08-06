@@ -7,8 +7,8 @@ interface OneSignalService {
     suspend fun sendNotification(notification: Notification): Boolean
 
     companion object {
-        const val ONESIGNAL_APP_ID = "cb36d618-3937-4e76-a615-22ec5bec1643"
+        const val ONESIGNAL_APP_ID = "01206360-f412-41b8-b4ed-830f026b4660" // be sure to generate your own app id
 
-        const val NOTIFICATIONS = "https://onesignal.com/api/v1/notifications"
+        const val NOTIFICATIONS_URL = "https://onesignal.com/api/v1/notifications"
     }
 }
