@@ -1,15 +1,9 @@
-package com.plcoding
+package com.realityexpander
 
-import io.ktor.routing.*
 import io.ktor.http.*
-import io.ktor.serialization.*
-import io.ktor.features.*
-import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.request.*
 import kotlin.test.*
 import io.ktor.server.testing.*
-import com.plcoding.plugins.*
+import com.realityexpander.plugins.*
 
 class ApplicationTest {
     @Test

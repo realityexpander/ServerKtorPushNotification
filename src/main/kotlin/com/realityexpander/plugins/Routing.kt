@@ -1,13 +1,12 @@
-package com.plcoding.plugins
+package com.realityexpander.plugins
 
-import com.plcoding.data.remote.OneSignalService
-import com.plcoding.data.remote.dto.Notification
-import com.plcoding.data.remote.dto.NotificationMessage
+import com.realityexpander.data.remote.OneSignalService
+import com.realityexpander.data.remote.dto.Notification
+import com.realityexpander.data.remote.dto.NotificationMessage
 import io.ktor.routing.*
 import io.ktor.http.*
 import io.ktor.application.*
 import io.ktor.response.*
-import io.ktor.request.*
 
 fun Application.configureRouting(service: OneSignalService) {
     routing {

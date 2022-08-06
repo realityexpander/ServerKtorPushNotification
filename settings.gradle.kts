@@ -1,1 +1,1 @@
-rootProject.name = "com.plcoding.ktor-pushnotification"
+rootProject.name = "com.realityexpander.ktor-pushnotification"

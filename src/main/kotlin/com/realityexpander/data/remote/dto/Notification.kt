@@ -1,4 +1,4 @@
-package com.plcoding.data.remote.dto
+package com.realityexpander.data.remote.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

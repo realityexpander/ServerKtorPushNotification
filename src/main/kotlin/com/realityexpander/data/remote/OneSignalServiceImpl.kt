@@ -1,6 +1,6 @@
-package com.plcoding.data.remote
+package com.realityexpander.data.remote
 
-import com.plcoding.data.remote.dto.Notification
+import com.realityexpander.data.remote.dto.Notification
 import io.ktor.client.*
 import io.ktor.client.request.*
 import io.ktor.http.*
