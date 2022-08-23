@@ -17,11 +17,11 @@ data class Notification(
     val headings: NotificationMessage,
 
     val buttons: List<NotificationButton> = listOf(),
-    val content_available: String = "",
 
-    val big_picture: String = "",
-    val large_icon: String = "",
+    val content_available: String? = null,
 
+    val big_picture: String? = null,
+    val large_icon: String? = null ,
 
     @SerialName("app_id")
     val appId: String,
